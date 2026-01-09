@@ -11,7 +11,6 @@ Chương trình gồm lớp `StudentAnalyzer` với hai chức năng chính:
 - Tính điểm trung bình của các điểm hợp lệ
 
 Điểm hợp lệ được xác định nằm trong khoảng từ **0 đến 10**.
-
 ---
 
 ## 2. Các chức năng chính
