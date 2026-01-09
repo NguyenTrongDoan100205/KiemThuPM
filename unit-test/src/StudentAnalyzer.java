@@ -1,7 +1,6 @@
 package BT;
 import java.util.List;
 public class StudentAnalyzer {
-
     /**
      * Phân tích điểm số và trả về số lượng học sinh đạt loại Giỏi.
      * @param scores danh sách điểm số từ 0 đến 10
