@@ -1,6 +1,4 @@
 package BT;
-
-
 import java.util.List;
 
 public class StudentAnalyzer {
