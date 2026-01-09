@@ -61,3 +61,4 @@ public class StudentAnalyzerTest {
         assertEquals(5.0, avg);
     }
 }
+
