@@ -8,7 +8,7 @@ Trong bài tập này, em đã thực hiện kiểm thử khả năng quan sát 
 * **Thời gian hoàn thành:** **06:02**
 
 ### Minh chứng kết quả:
-![Kết quả Can't Unsee](./Cannotsee.jpg)
+![Kết quả Can't Unsee](./Cantunsee.jpg)
 
 ---
 ## Phân tích & Bài học rút ra
