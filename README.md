@@ -1,6 +1,6 @@
-# 🏆 BÁO CÁO KẾT QUẢ CHƯƠNG 1
+# BÁO CÁO KẾT QUẢ CHƯƠNG 1
 
-## 📊 Kết quả thực hành trên "Can't Unsee"
+## Kết quả thực hành trên "Can't Unsee"
 Trong bài tập này, em đã thực hiện kiểm thử khả năng quan sát và nhận diện lỗi giao diện (UI) thông qua thử thách "Can't Unsee".
 
 * **Thứ hạng đạt được:** **PLATINUM (Top 5% người chơi)**
