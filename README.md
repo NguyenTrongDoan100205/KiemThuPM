@@ -1,5 +1,5 @@
 # KIỂM THỬ PHẦN MỀM
-## Báo cáo kết quả Chương 1
+## Báo Cáo Kết Quả Chương 1
 ---
 ## 1. Kết quả thực hành trên "Can't Unsee"
 Trong bài tập này, em đã thực hiện kiểm thử khả năng quan sát và nhận diện lỗi giao diện (UI) thông qua thử thách đào tạo thị giác.
