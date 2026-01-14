@@ -21,7 +21,7 @@ Việc đạt mức điểm Platinum cho thấy em đã rèn luyện được c�
 3.  **Kiểm thử tính nhất quán (Consistency):** Đảm bảo các thành phần giao diện tuân thủ quy tắc thiết kế chung (Design System).
 
 
-# Bài tập thực hành kiểm thử với JUnit
+## Bài tập thực hành kiểm thử với JUnit
 ## Chủ đề: Phân tích dữ liệu điểm số học sinh
 
 ---
