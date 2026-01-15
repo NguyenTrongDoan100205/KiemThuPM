@@ -107,4 +107,39 @@ Thông qua bài tập này, em đã nắm vững:
 * **Tổ chức dự án**: Hiểu quy trình tổ chức dự án Java theo cấu trúc `src/test` tiêu chuẩn.
 * **Kỹ năng công nghệ**: Biết cách sử dụng Git để quản lý phiên bản mã nguồn và ứng dụng AI hỗ trợ trong quá trình lập trình.
 
+Bài Tập Thực Hành Kiểm Thử Tự Động End-To-End Với Cypress
+1. Giới Thiệu Dự Án
+Dự án thực hiện kiểm thử tự động cho trang web SauceDemo. Hệ thống đảm bảo các luồng nghiệp vụ từ đăng nhập đến thanh toán hoạt động ổn định.
+
+2. Cấu Trúc Thư Mục Dự Án
+Dự án được tổ chức chặt chẽ theo cấu trúc thư mục của Cypress:
+
+Hình 1: Cấu trúc thư mục và các tệp cấu hình trong VS Code.
+
+3. Các Kịch Bản Kiểm Thử Đã Thực Hiện
+A. Kiểm Thử Đăng Nhập (login_spec.cy.js)
+Kịch bản 1: Đăng nhập thành công với tài khoản hợp lệ (standard_user).
+
+Kịch bản 2: Kiểm tra hiển thị lỗi khi nhập sai thông tin.
+
+Hình 2: Cypress xác nhận 2 kịch bản đăng nhập đều đạt (Passed).
+
+B. Kiểm Thử Giỏ Hàng & Thanh Toán (cart_spec.cy.js)
+Kịch bản 3: Thêm sản phẩm thành công và cập nhật số lượng giỏ hàng.
+
+Kịch bản 4: Kiểm tra chức năng lọc giá sản phẩm (Low to High).
+
+Kịch bản bổ sung 1: Xóa sản phẩm khỏi giỏ hàng (nút Remove).
+
+Kịch bản bổ sung 2: Hoàn tất quy trình thanh toán và kiểm tra chuyển hướng URL.
+
+Hình 3: Toàn bộ 4 kịch bản về giỏ hàng và thanh toán đều thành công.
+
+4. Quản Lý Mã Nguồn
+Dự án sử dụng tệp .gitignore để loại bỏ thư mục node_modules, đảm bảo repo GitHub gọn nhẹ và đúng chuẩn kỹ thuật.
+
+Hình 4: Tệp .gitignore được thiết lập chính xác.
+
+5. Kết Luận
+Tất cả các kịch bản kiểm thử đều đạt trạng thái Passed 100% trên trình duyệt Chrome thông qua Cypress Test Runner.
 
