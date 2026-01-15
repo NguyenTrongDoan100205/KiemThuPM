@@ -199,5 +199,3 @@ npx cypress open
 *Chọn file `.cy.js` trong danh sách để xem quá trình chạy tự động.*
 
 ---
-
-```
