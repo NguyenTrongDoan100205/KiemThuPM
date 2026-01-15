@@ -139,6 +139,7 @@ Tất cả các kịch bản đều đạt trạng thái **Passed** 100%.
 | TC02 | Đăng nhập thất bại | Kiểm tra thông báo lỗi khi sai thông tin | ✅ Passed |
 
 > **Bằng chứng:**
+> 
 
 ---
 
@@ -179,20 +180,5 @@ npx cypress open
 *Chọn file `.cy.js` trong danh sách để xem quá trình chạy tự động.*
 
 ---
-
-**Sinh viên thực hiện:** Nguyễn Trọng Đoàn
-**Học phần:** Kiểm thử phần mềm
-
----
-
-### Bước tiếp theo bạn cần làm:
-
-1. Mở file `README.md` trong VS Code.
-2. Dán toàn bộ nội dung trên vào.
-3. Lưu lại và gõ lệnh:
-```bash
-git add README.md
-git commit -m "Update professional README"
-git push origin main
 
 ```
