@@ -139,10 +139,15 @@ Tất cả các kịch bản đều đạt trạng thái **Passed** 100%.
 | TC02 | Đăng nhập thất bại | Kiểm tra thông báo lỗi khi sai thông tin | ✅ Passed |
 
 > **Bằng chứng:**[
-](./login1.jpg)]
+### 1. Kiểm thử Đăng nhập (`login_spec.cy.js`)
+
+**Bằng chứng:**
+
+![Hình 1](./login1.jpg)
+
 ---
-](./login11.jpg)]
----
+
+![Hình 2](./login11.jpg)
 
 ### 2. Kiểm thử Giỏ hàng & Thanh toán (`cart_spec.cy.js`)
 
@@ -154,6 +159,19 @@ Tất cả các kịch bản đều đạt trạng thái **Passed** 100%.
 | TC06 | Thanh toán | Điền thông tin và chuyển hướng đến xác nhận | ✅ Passed |
 
 > **Bằng chứng:**
+### 1. Kiểm thử Đăng nhập (`login_spec.cy.js`)
+
+**Bằng chứng:**
+
+![Hình 1](./cart22.jpg)
+
+---
+
+![Hình 2](./cart2.jpg)
+
+---
+
+![Hình 2](./login1.jpg)
 
 ## 🛠 Hướng dẫn cài đặt và sử dụng
 
