@@ -138,9 +138,10 @@ Tất cả các kịch bản đều đạt trạng thái **Passed** 100%.
 | TC01 | Đăng nhập thành công | Sử dụng `standard_user` và `secret_sauce` | ✅ Passed |
 | TC02 | Đăng nhập thất bại | Kiểm tra thông báo lỗi khi sai thông tin | ✅ Passed |
 
-> **Bằng chứng:**
-> 
-
+> **Bằng chứng:**[
+](./login1.jpg)]
+---
+](./login11.jpg)]
 ---
 
 ### 2. Kiểm thử Giỏ hàng & Thanh toán (`cart_spec.cy.js`)
