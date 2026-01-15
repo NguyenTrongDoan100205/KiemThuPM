@@ -171,7 +171,7 @@ Tất cả các kịch bản đều đạt trạng thái **Passed** 100%.
 
 ---
 
-![Hình 2](cypress/login1.jpg)
+![Hình 2](cypress/cart1.jpg)
 
 ## 🛠 Hướng dẫn cài đặt và sử dụng
 
