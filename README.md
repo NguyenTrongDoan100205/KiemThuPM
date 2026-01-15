@@ -143,11 +143,11 @@ Tất cả các kịch bản đều đạt trạng thái **Passed** 100%.
 
 **Bằng chứng:**
 
-![Hình 1](./login1.jpg)
+![Hình 1](cypress/login1.jpg)
 
 ---
 
-![Hình 2](./login11.jpg)
+![Hình 2](cypress/login11.jpg)
 
 ### 2. Kiểm thử Giỏ hàng & Thanh toán (`cart_spec.cy.js`)
 
@@ -163,15 +163,15 @@ Tất cả các kịch bản đều đạt trạng thái **Passed** 100%.
 
 **Bằng chứng:**
 
-![Hình 1](./cart22.jpg)
+![Hình 1](cypress/cart22.jpg)
 
 ---
 
-![Hình 2](./cart2.jpg)
+![Hình 2](cypress/cart2.jpg)
 
 ---
 
-![Hình 2](./login1.jpg)
+![Hình 2](cypress/login1.jpg)
 
 ## 🛠 Hướng dẫn cài đặt và sử dụng
 
