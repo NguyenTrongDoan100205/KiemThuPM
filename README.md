@@ -115,7 +115,7 @@ Thông qua bài tập này, em đã nắm vững:
 
 Dự án thực hiện kịch bản kiểm thử tự động End-to-End (E2E) cho trang web bán hàng mẫu [SauceDemo](https://www.saucedemo.com). Mục tiêu là đảm bảo tính ổn định của các luồng nghiệp vụ quan trọng như Đăng nhập, Giỏ hàng và Thanh toán.
 
-## 📂 Cấu trúc dự án
+## Cấu trúc dự án
 
 Dự án được tổ chức theo tiêu chuẩn của Cypress:
 
@@ -127,7 +127,7 @@ Dự án được tổ chức theo tiêu chuẩn của Cypress:
 * **`.gitignore`**: Đã cấu hình để loại bỏ `node_modules`, giúp Repo gọn nhẹ.
 * **`package.json`**: Quản lý phiên bản các thư viện và tập lệnh thực thi.
 
-## 🚀 Kịch bản kiểm thử & Kết quả
+## Kịch bản kiểm thử & Kết quả
 
 Tất cả các kịch bản đều đạt trạng thái **Passed** 100%.
 
