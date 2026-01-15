@@ -107,3 +107,92 @@ Thông qua bài tập này, em đã nắm vững:
 * **Tổ chức dự án**: Hiểu quy trình tổ chức dự án Java theo cấu trúc `src/test` tiêu chuẩn.
 * **Kỹ năng công nghệ**: Biết cách sử dụng Git để quản lý phiên bản mã nguồn và ứng dụng AI hỗ trợ trong quá trình lập trình.
 
+---
+
+# Bài tập thực hành kiểm thử tự động End-to-End với Cypress
+
+## Giới thiệu
+
+Dự án thực hiện kịch bản kiểm thử tự động End-to-End (E2E) cho trang web bán hàng mẫu [SauceDemo](https://www.saucedemo.com). Mục tiêu là đảm bảo tính ổn định của các luồng nghiệp vụ quan trọng như Đăng nhập, Giỏ hàng và Thanh toán.
+
+## 📂 Cấu trúc dự án
+
+Dự án được tổ chức theo tiêu chuẩn của Cypress:
+
+* **`cypress/e2e/`**: Chứa toàn bộ các file kịch bản kiểm thử.
+* `login_spec.cy.js`: Kiểm tra chức năng xác thực người dùng.
+* `cart_spec.cy.js`: Kiểm tra giỏ hàng, bộ lọc và thanh toán.
+
+
+* **`.gitignore`**: Đã cấu hình để loại bỏ `node_modules`, giúp Repo gọn nhẹ.
+* **`package.json`**: Quản lý phiên bản các thư viện và tập lệnh thực thi.
+
+## 🚀 Kịch bản kiểm thử & Kết quả
+
+Tất cả các kịch bản đều đạt trạng thái **Passed** 100%.
+
+### 1. Kiểm thử Đăng nhập (`login_spec.cy.js`)
+
+| ID | Kịch bản | Mô tả | Trạng thái |
+| --- | --- | --- | --- |
+| TC01 | Đăng nhập thành công | Sử dụng `standard_user` và `secret_sauce` | ✅ Passed |
+| TC02 | Đăng nhập thất bại | Kiểm tra thông báo lỗi khi sai thông tin | ✅ Passed |
+
+> **Bằng chứng:**
+
+---
+
+### 2. Kiểm thử Giỏ hàng & Thanh toán (`cart_spec.cy.js`)
+
+| ID | Kịch bản | Mô tả | Trạng thái |
+| --- | --- | --- | --- |
+| TC03 | Thêm vào giỏ | Thêm sản phẩm đầu tiên và kiểm tra badge | ✅ Passed |
+| TC04 | Sắp xếp giá | Lọc sản phẩm theo "Price (low to high)" | ✅ Passed |
+| TC05 | Xóa sản phẩm | Sử dụng chức năng "Remove" trong giỏ hàng | ✅ Passed |
+| TC06 | Thanh toán | Điền thông tin và chuyển hướng đến xác nhận | ✅ Passed |
+
+> **Bằng chứng:**
+
+## 🛠 Hướng dẫn cài đặt và sử dụng
+
+1. **Clone dự án:**
+```bash
+git clone https://github.com/NguyenTrongDoan100205/KiemThuPM.git
+
+```
+
+
+2. **Cài đặt thư viện:**
+```bash
+npm install
+
+```
+
+
+3. **Mở giao diện Cypress:**
+```bash
+npx cypress open
+
+```
+
+
+*Chọn file `.cy.js` trong danh sách để xem quá trình chạy tự động.*
+
+---
+
+**Sinh viên thực hiện:** Nguyễn Trọng Đoàn
+**Học phần:** Kiểm thử phần mềm
+
+---
+
+### Bước tiếp theo bạn cần làm:
+
+1. Mở file `README.md` trong VS Code.
+2. Dán toàn bộ nội dung trên vào.
+3. Lưu lại và gõ lệnh:
+```bash
+git add README.md
+git commit -m "Update professional README"
+git push origin main
+
+```
