@@ -217,7 +217,6 @@ Dự án được tổ chức khoa học trên GitHub để quản lý các thà
   ├── images/           # Chứa minh chứng kết quả (Anh1.jpg, Anh2.jpg)
   ├── scripts/          # Kịch bản kiểm thử (Test Plan.jmx)
   ├── results/          # Tệp tin log dữ liệu (summary.jtl, view.jtl)
-  └── README.md         # Báo cáo chi tiết này
 
 ```
 
