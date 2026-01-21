@@ -258,20 +258,13 @@ Dữ liệu được trích xuất trực tiếp từ kết quả chạy thực 
 * **Thời gian phản hồi (Latency)**: Thời gian phản hồi trung bình toàn hệ thống cực nhanh (**46ms**). Thậm chí ở mức tải nặng nhất (`Request 1`), thời gian phản hồi tối đa vẫn chỉ là **128ms**, nằm trong ngưỡng trải nghiệm người dùng rất tốt.
 * **Thông lượng (Throughput)**: Trang chủ có khả năng xử lý lên tới **45.3 yêu cầu/giây**, đảm bảo phục vụ tốt lượng truy cập lớn cùng lúc.
 
-## Minh chứng thực tế
-
-Dưới đây là các hình ảnh được chụp trực tiếp từ giao diện công cụ JMeter trong quá trình kiểm thử:
+## 🖼️ Hình ảnh minh chứng
 
 ### 1. Bảng thống kê tổng hợp (Summary Report)
-
-Minh chứng cho các chỉ số đo lường hiệu năng thực tế:
 ![Summary Report](images/Anh1.jpg)
 
-### 2. Chi tiết phản hồi yêu cầu (View Results Tree)
-
-Tất cả các yêu cầu đều được phản hồi thành công (hiển thị trạng thái xanh):
+### 2. Danh sách các yêu cầu thành công (View Results Tree)
 ![View Results Tree](images/Anh2.jpg)
-
 ## Cách thức thực hiện lại bài test
 
 1. Cài đặt **Apache JMeter 5.6.3**.
