@@ -261,10 +261,13 @@ Dữ liệu được trích xuất trực tiếp từ kết quả chạy thực 
 ## 🖼️ Hình ảnh minh chứng
 
 ### 1. Bảng thống kê tổng hợp (Summary Report)
+Minh chứng cho các chỉ số đo lường hiệu năng thực tế:
 ![Summary Report](images/Anh1.jpg)
 
-### 2. Danh sách các yêu cầu thành công (View Results Tree)
+### 2. Chi tiết phản hồi yêu cầu (View Results Tree)
+Tất cả các yêu cầu đều được phản hồi thành công (hiển thị trạng thái xanh):
 ![View Results Tree](images/Anh2.jpg)
+
 ## Cách thức thực hiện lại bài test
 
 1. Cài đặt **Apache JMeter 5.6.3**.
