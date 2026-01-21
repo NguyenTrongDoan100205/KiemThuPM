@@ -199,3 +199,81 @@ npx cypress open
 *Chọn file `.cy.js` trong danh sách để xem quá trình chạy tự động.*
 
 ---
+
+Dưới đây là file `README.md` được viết chi tiết, chuyên nghiệp và bám sát hoàn toàn vào dữ liệu thực tế từ các tệp tin và ảnh chụp màn hình bạn đã cung cấp.
+
+---
+
+# Báo cáo Kiểm thử JMeter
+
+Báo cáo này trình bày chi tiết quá trình và kết quả kiểm thử hiệu năng cho website dự án, tập trung vào khả năng chịu tải, tốc độ phản hồi và độ ổn định của hệ thống.
+
+## 📂 Cấu trúc thư mục dự án
+
+Dự án được tổ chức khoa học trên GitHub để quản lý các thành phần kiểm thử:
+
+```text
+/Jmeter
+  ├── images/           # Chứa minh chứng kết quả (Anh1.jpg, Anh2.jpg)
+  ├── scripts/          # Kịch bản kiểm thử (Test Plan.jmx)
+  ├── results/          # Tệp tin log dữ liệu (summary.jtl, view.jtl)
+  └── README.md         # Báo cáo chi tiết này
+
+```
+
+## Thiết kế kịch bản kiểm thử (Test Scenarios)
+
+Kịch bản sử dụng Apache JMeter 5.6.3 để mô phỏng 3 nhóm hành vi người dùng khác nhau:
+
+1. **TG1_Basic_Scenario**:
+* **Cấu hình**: 10 Users, lặp lại 5 lần (Tổng 50 samples).
+* **Hành vi**: Truy cập cơ bản vào trang chủ (HTTP Request).
+
+
+2. **TG2_Heavy_Load**:
+* **Cấu hình**: 50 Users với thời gian tăng dần (Ramp-up) trong 30 giây.
+* **Hành vi**: Truy cập đồng thời vào tài nguyên hệ thống qua `Request 1`.
+
+
+3. **TG3_Search_Action**:
+* **Cấu hình**: 20 Users mô phỏng hành động liên tục trong 60 giây.
+* **Hành vi**: Thực hiện các yêu cầu tùy chỉnh qua `Request 2`.
+
+
+
+## Kết quả kiểm thử chi tiết (Summary Report)
+
+Dữ liệu được trích xuất trực tiếp từ kết quả chạy thực tế vào lúc 11:30 AM ngày 21/01/2026:
+
+| Thứ tự | Nhãn (Label) | Số mẫu (Samples) | TB (Average) | Tối thiểu (Min) | Tối đa (Max) | Độ lệch (Std. Dev.) | Tỷ lệ lỗi (Error %) | Thông lượng (Throughput) |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | **HTTP Request** | 50 | 36 ms | 11 ms | 124 ms | 32.08 | 0.00% | 45.3/sec |
+| 2 | **Request 1** | 50 | 77 ms | 65 ms | 128 ms | 11.80 | 0.00% | 1.7/sec |
+| 3 | **Request 2** | 50 | 25 ms | 15 ms | 117 ms | 15.52 | 0.00% | 1.7/sec |
+| **Tổng** | **TOTAL** | **150** | **46 ms** | **11 ms** | **128 ms** | **31.28** | **0.00%** | **5.1/sec** |
+
+### Phân tích và nhận xét:
+
+* **Độ ổn định hệ thống**: Tỷ lệ lỗi đạt **0.00%** trên toàn bộ 150 yêu cầu, chứng tỏ hệ thống xử lý hoàn hảo các kịch bản tải đã thiết lập.
+* **Thời gian phản hồi (Latency)**: Thời gian phản hồi trung bình toàn hệ thống cực nhanh (**46ms**). Thậm chí ở mức tải nặng nhất (`Request 1`), thời gian phản hồi tối đa vẫn chỉ là **128ms**, nằm trong ngưỡng trải nghiệm người dùng rất tốt.
+* **Thông lượng (Throughput)**: Trang chủ có khả năng xử lý lên tới **45.3 yêu cầu/giây**, đảm bảo phục vụ tốt lượng truy cập lớn cùng lúc.
+
+## Minh chứng thực tế
+
+Dưới đây là các hình ảnh được chụp trực tiếp từ giao diện công cụ JMeter trong quá trình kiểm thử:
+
+### 1. Bảng thống kê tổng hợp (Summary Report)
+
+Minh chứng cho các chỉ số đo lường hiệu năng thực tế:
+
+### 2. Chi tiết phản hồi yêu cầu (View Results Tree)
+
+Tất cả các yêu cầu đều được phản hồi thành công (hiển thị trạng thái xanh):
+
+## Cách thức thực hiện lại bài test
+
+1. Cài đặt **Apache JMeter 5.6.3**.
+2. Tải thư mục `Jmeter` từ repo này về máy.
+3. Mở JMeter, chọn **File > Open** và tìm đến đường dẫn `Jmeter/scripts/Test Plan.jmx`.
+4. Nhấn biểu tượng **Start (Mũi tên xanh)** để chạy lại toàn bộ kịch bản.
+5. Kết quả sẽ tự động cập nhật vào các Listener đã cấu hình sẵn trong Test Plan.
