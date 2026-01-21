@@ -265,10 +265,12 @@ Dưới đây là các hình ảnh được chụp trực tiếp từ giao diệ
 ### 1. Bảng thống kê tổng hợp (Summary Report)
 
 Minh chứng cho các chỉ số đo lường hiệu năng thực tế:
+![Summary Report](images/Anh1.jpg)
 
 ### 2. Chi tiết phản hồi yêu cầu (View Results Tree)
 
 Tất cả các yêu cầu đều được phản hồi thành công (hiển thị trạng thái xanh):
+![View Results Tree](images/Anh2.jpg)
 
 ## Cách thức thực hiện lại bài test
 
