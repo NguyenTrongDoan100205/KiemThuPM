@@ -17,6 +17,3 @@
 | **R14** | Chọn phương thức thanh toán | TC_PAY_003, TC_PAY_004 | Covered |
 | **R15** | Đặt hàng thành công | TC_PAY_005, TC_PAY_006 | Covered |
 | **R16** | Lưu lịch sử đơn hàng | TC_PAY_007, TC_PAY_008 | Covered |
-
----
-**Xong bước này, bạn đã nắm chắc 1.5 điểm RTM!** Bây giờ là lúc mệt nhất nhưng cũng thú vị nhất: **Chặng 4: Viết chi tiết 45 Test Cases (03_Test_Cases)**. Bạn muốn mình viết mẫu chi tiết **10 Test Cases đầu tiên** của Module Authentication (xác thực) để bạn copy vào Excel không? (Sẽ bao gồm đầy đủ các bước: Step 1, 2, 3 và Expected Result).
