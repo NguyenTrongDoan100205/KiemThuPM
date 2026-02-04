@@ -54,6 +54,3 @@ Báo cáo tại thư mục `05` phản ánh 4 chỉ số cốt lõi:
 * **Requirement Coverage:** Độ bao phủ yêu cầu dựa trên RTM.
 
 ---
----
-
-Bạn đã hoàn thành xong cấu trúc `README.md`. Bạn có muốn mình giúp soạn chi tiết nội dung cho **Ma trận RTM (03)** để khớp chính xác với 16 yêu cầu (R1-R16) không?
